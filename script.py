@@ -3,8 +3,8 @@ from pathlib import Path
 from urllib.parse import urljoin
 from playwright.async_api import async_playwright
 
-START_PAGE = 6
-END_PAGE = 6
+START_PAGE = 7
+END_PAGE = 7
 URL_TEMPLATE = "https://www.romsgames.net/roms/gameboy-advance/?page={page}&sort=popularity"
 BASE_DIR = Path(__file__).resolve().parent
 
